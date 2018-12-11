@@ -22,6 +22,16 @@ I can not solve this problem no matter what I try. And I believe a lot of people
 <br>
 6, Please take a look at Header.js and Data.js, where you will see the code of Log.out().<br> 
 
+# logs displayed on the phone screen
+for example:<br>
+  Log starts<br>
+  0.065: Render App<br>
+  0.068: The text is: Hello World!<br>
+  0.068: set data = weather is good!<br>
+ <br>
+ The decimal at the beginning of each log shows the time in seconds. The time is counted when the mobile app begins to run.<br>
+ <br>
+
 # note
 1, All the logs are saved in a static array inside Log component in file Log.js. So it will affect the performance of your mobile app. <br>
 <br>
